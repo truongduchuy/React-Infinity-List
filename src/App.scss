@@ -1,0 +1,43 @@
+body {
+  background: #f5f5f5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  .list-box {
+    min-width: 375px;
+    width: 375px;
+    max-height: 600px;
+    height: 600px;
+    margin: 20px;
+    background: white;
+    border-radius: 4px;
+    padding: 20px;
+
+    .card-list {
+      max-height: 425px;
+      overflow: auto;
+    }
+  }
+}
+
+.btn {
+  background: transparent;
+  border: none;
+}
+
+.loader-box {
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
